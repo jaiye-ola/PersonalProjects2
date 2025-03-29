@@ -1,163 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/tailwindlcone.css">
-    <title>Document</title> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Landing Page Clone</title>
 </head>
-
-<body class="font-serif">
-
-    <!-- header -->
-     <div class="flex flex-wrap h-[5rem] items-center justify-around shadow-md fixed z-50 bg-white w-full">
-        <div>
-            <h3 class="font-bold text-lg"><a href="">Start bootstrap</a></h3>
-        </div>
-        <div>
-            <ul class="inline-flex items-center space-x-4">
-                <li><a href="">Features</a></li>
-                <li><a href="">Download</a></li>
-                <li class="bg-[#2937f0] text-white p-2 rounded-full pe-5 ps-5"><a href=""><span><i class="fa-solid fa-comment"></i></span> Send Feedback</a></li>
-            </ul>
-        </div>
+<body>
+  <header class="h-20 flex justify-between items-center pr-10 pl-10">
+    <a href="" class="font-[490] text-xl">Start Bootstrap</a>
+    <button class="pt-3 pb-3 pr-3 pl-3 cursor-pointer bg-[#0D6EFD] text-[#fff] rounded-lg hover:bg-[#0b5ED7]">Sign Up</button>
+  </header>
+  <section class="h-160 bg-linear-to-t from-[rgba(28, 55, 94, 0.5)] to-[#1c375e] pt-50">
+    <h1 class="text-5xl text-center font-semibold w-150 ml-auto mr-auto text-[#fff] mb-15">Generate more leads with a professional landing page!</h1>
+    <div class="flex justify-around ml-auto mr-auto w-200">
+      <input type="email" name="" id="" placeholder="Email Address" class="w-150 bg-[#fff] pl-5 text-[#212529] text-[1.25rem] rounded-lg focus:outline-none">
+      <button class="pt-5 pb-5 pr-5 pl-5 bg-[#0D6EFD] text-[#fff] text-lg rounded-lg">Submit</button>
     </div>
-    <!-- header done -->
-
-    <!-- banner -->
-     <div class="banner h-screen bg-[#f8f9fa] flex flex-wrap flex-colum md:flex-row justify-around items-center relative">
-        <div class="banner-text basis-[10%] space-y-4">
-            <h1 class="font-bold text-8xl">Showcase your app beautifully.</h1>
-            <p class="text-xl text-slate-400">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
-
-            <div class="flex flex-wrap justify-start space-x-3">
-                <img src="/img/google-play-badge.svg" class="w-[130px]" alt="">
-                <img src="/img/app-store-badge.svg" class="w-[130px]" alt="">
-            </div>
-        </div>
-        <div class="banner-video basis-[35%] relative">
-            <div class="video-circle bg-linear-65 from-blue-500 to-purple-500 block h-[370px] w-[370px] rounded-full"></div>
-            <div>
-                <video src="/img/demo-screen.mp4" autoplay muted class="w-[218px] border border-5 rounded-xl border-[#000] absolute -top-10 left-20"></video>
-            </div>
-        </div>
-     </div>
-    <!-- banner done -->
-
-    <!-- nextweb -->
-     <div class="parent h-[50vh] flex flex-wrap items-center justify-center bg-linear-65 from-blue-800 to-purple-500">
-        <div class="child text-center basis-[40%] space-y-5 text-white font-semibold">
-            <h1 class="text-3xl">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</h1>
-            <div class="flex justify-center">
-                <img src="/img/tnw-logo.svg" class="w-25" alt="">
-            </div>
-        </div>
-     </div>
-    <!-- nextweb done -->
-
-    <!-- services -->
-     <div class="service h-screen flex flex-wrap justify-around items-center relative"> 
-        <div class="child basis-[20%] relative">
-            <div class="circle bg-linear-65 from-blue-500 to-purple-500 w-[280px] h-[280px] rounded-full"></div>
-            <div>
-                <video src="/img/demo-screen.mp4" class="w-[200px] absolute -top-15 left-20 border-7 rounded-md border-[#000]" autoplay muted></video>
-            </div>
-        </div>
-        <div class="child basis-[40%]">
-            <!-- <div class="flex flex-wrap items-center justify-center sapce-x-3"> -->
-            <div class="grid grid-cols-1 md:grid-cols-2 items-center justify-center space-y-5 text-center">
-
-            <!--  -->
-            <div class="">
-                <div class="mb-3"><i class="fa-solid fa-mobile-screen text-7xl text-transparent bg-clip-text bg-linear-65 from-blue-500 to-purple-500"></i></div>
-                <div class="space-y-4">
-                    <h1 class="text-xl font-semibold">Device Mockups</h1>
-                    <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                </div>
-            </div>
-            <!--  -->
-            <!--  -->
-            <div class="">
-                <div><i class="fa-solid fa-camera text-7xl text-transparent bg-clip-text bg-linear-65 from-blue-500 to-purple-500"></i></div>
-                <div>
-                    <h1 class="text-xl font-semibold">Flexible Use</h1>
-                    <p>Put an image, video, animation, or anything else in the screen!</p>
-                </div>
-            </div>
-            <!--  -->
-            <!--  -->
-            <div class="">
-                <div><i class="fa-solid fa-gift text-7xl text-transparent bg-clip-text bg-linear-65 from-blue-500 to-purple-500"></i></div>
-                <div>
-                    <h1 class="text-xl font-semibold">Free to Use</h1>
-                    <p>As always, this theme is free to download and use for any purpose!</p>
-                </div>
-            </div>
-            <!--  -->
-            <!--  -->
-            <div class="">
-                <div><i class="fa-solid fa-circle-check text-7xl text-transparent bg-clip-text bg-linear-65 from-blue-500 to-purple-500"></i></div>
-                <div>
-                    <h1 class="text-xl font-semibold">Open Source</h1>
-                    <p>Since this theme is MIT licensed, you can use it commercially!</p>
-                </div>
-            </div>
-            <!--  -->
-        </div>
-        </div>
-     </div>
-    <!-- services done -->
-
-    <!-- design -->
-     <div class="flex flex-wrap h-full justify-around items-center bg-[#f8f9fa]">
-        <div class="basis-[35%]">
-            <h1 class="text-[55px] font-semibold">Enter a new age of web design</h1>
-            <p class="text-xl">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
-        </div>
-        <div class="">
-            <div class="circle bg-linear-65 from-blue-500 to-purple-500 mt-12 mb-12 w-[300px] h-[300px] rounded-full"></div>
-        </div>
-     </div>
-    <!-- design done -->
-
-    
-    <!--  -->
-    <div class="bg-[#7f7f7f] h-[80vh] flex flex-wrap justify-around items-center">
-        <div class="basis-[40%]">
-            <h1 class="text-7xl font-semibold text-white">Stop waiting</h1>
-            <h1 class="text-7xl font-semibold text-white">Start building.</h1>
-            <button type="button" class="bg-transparent hover:text-black hover:bg-white hover:cursor-pointer border-1 border-white p-4 rounded-full text-white">Download for free</button>
-        </div>
-        <div class="basis-[40%]"></div>
+  </section>
+  <section class="border-2 h-80">
+    <div class="card">
+      <i></i>
+      <h2>Fully Responsive</h2>
+      <p>This theme will look great on any device, no matter the size!</p>
     </div>
-    <!-- done -->
-
-    <!-- app -->
-     <div class="bg-linear-65 from-blue-500 to-purple-500 text-center h-[40vh] flex flex-wrap items-center justify-center">
-        <div class="space-y-5">
-            <h1 class="text-3xl font-semibold text-white">Get the app now!</h1>
-            <div class="flex flex-wrap items-center space-x-3 justify-center">
-                <img src="/img/google-play-badge.svg" class="w-[170px]" alt="">
-                <img src="/img/app-store-badge.svg" class="w-[170px]" alt="">
-            </div>
-        </div>
-     </div>
-    <!-- app done -->
-
-    <!-- footer -->
-     <div class="footer bg-[#000000] text-[#6f807c] text-center p-12">
-        <p>&copy; Your Website 2023. All Rights Reserved.</p>
-        <ul class="mt-3 space-x-3 inline-flex">
-            <li class="hover:border-b-1 border-b-red"><a href="">Privacy</a></li>
-            <li class="hover:border-b-1 border-b-red"><a href="">Terms</a></li>
-            <li class="hover:border-b-1 border-b-red"><a href="">FAQ</a></li>
-        </ul>
-     </div>
-    <!-- footer done -->
-
-  
-    
+    <div class="card">
+      <i></i>
+      <h2>Bootstrap 5 Ready</h2>
+      <p>Featuring the latest build of the new Bootstrap 5 framework!</p>
+    </div>
+    <div class="card">
+      <i></i>
+      <h2>Easy to Use</h2>
+      <p>Ready to use with your own content, or customize the source files!</p>
+    </div>
+  </section>
 </body>
 </html>

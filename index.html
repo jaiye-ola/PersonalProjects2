@@ -3,37 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <title>Landing Page Clone</title>
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="h-20 flex justify-between items-center pr-10 pl-10">
-    <a href="" class="font-[490] text-xl">Start Bootstrap</a>
-    <button class="pt-3 pb-3 pr-3 pl-3 cursor-pointer bg-[#0D6EFD] text-[#fff] rounded-lg hover:bg-[#0b5ED7]">Sign Up</button>
-  </header>
-  <section class="h-160 bg-linear-to-t from-[rgba(28, 55, 94, 0.5)] to-[#1c375e] pt-50">
-    <h1 class="text-5xl text-center font-semibold w-150 ml-auto mr-auto text-[#fff] mb-15">Generate more leads with a professional landing page!</h1>
-    <div class="flex justify-around ml-auto mr-auto w-200">
-      <input type="email" name="" id="" placeholder="Email Address" class="w-150 bg-[#fff] pl-5 text-[#212529] text-[1.25rem] rounded-lg focus:outline-none">
-      <button class="pt-5 pb-5 pr-5 pl-5 bg-[#0D6EFD] text-[#fff] text-lg rounded-lg">Submit</button>
+
+  <header class="header">
+    <div class="inner-heading">
+      <a href="#">Start Bootstrap</a>
+      <button class="btn">Sign Up</button>
     </div>
-  </section>
-  <section class="border-2 h-80">
-    <div class="card">
-      <i></i>
+  </header>
+
+  <div class="first-section">
+    <div class="first-container">
+      <h1>Generate more leads with a professional landing page!</h1>
+      <input type="email" name="" id="" placeholder="Email Address" class="email">
+      <button class="btn">Submit</button>
+    </div>
+  </div>
+
+  <div class="second-section">
+    <div class="web-card">
+      <img src="img/window.png" alt="" class="icon">
       <h2>Fully Responsive</h2>
       <p>This theme will look great on any device, no matter the size!</p>
     </div>
-    <div class="card">
-      <i></i>
+
+    <div class="web-card">
+      <img src="img/layer.png" alt="" class="icon">
       <h2>Bootstrap 5 Ready</h2>
       <p>Featuring the latest build of the new Bootstrap 5 framework!</p>
     </div>
-    <div class="card">
-      <i></i>
+
+    <div class="web-card">
+      <img src="img/terminal.png" alt="" class="icon">
       <h2>Easy to Use</h2>
       <p>Ready to use with your own content, or customize the source files!</p>
     </div>
-  </section>
+  </div>
+
+  <div class="third-section">
+    <div class="flex-container">
+      <div class="text text-group">
+        <div class="text-container">
+          <h2>Fully Responsive Design</h2>
+          <p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+        </div>
+      </div>
+      <div class="image image-1">
+        <!-- <img src="img/iphone.png" alt="" class="iphone"> -->
+      </div>
+    </div>
+
+    <div class="flex-container invert">
+      <div class="image image-2">
+        <!-- <img src="/img/code.png" alt=""> -->
+      </div>
+      <div class="text second-container">
+        <div class="text-container">
+          <h2>Updated For Bootstrap 5</h2>
+          <p>Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flex-container">
+      <div class="text text-group">
+        <div class="text-container">
+          <h2>Easy to Use & Customize</h2>
+          <p>Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        </div>
+      </div>
+      <div class="image image-3">
+        <!-- <img src="img/laptop.png" alt=""> -->
+      </div>
+    </div>
+  
+  </div>
+  
+  <div class="fourth-section">
+    <h2>What people are saying...</h2>
+ 
+    <div class="box">
+      <div class="container">
+        <div class="circle">
+          <img src="img/margaret.jpg" alt="">
+        </div>
+        <h4>Margaret E.</h4>
+        <p>"This is fantastic! Thanks so much guys!"</p>
+      </div>
+
+      <div class="container">
+        <div class="circle">
+          <img src="img/fred.jpg" alt="">
+        </div>
+        <h4>Fred S.</h4>
+        <p>"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+      </div>
+
+      <div class="container">
+        <div class="circle">
+          <img src="img/sarah.jpg" alt="">
+        </div>
+        <h4>Sarah W.</h4>
+        <p>"Thanks so much for making this free resources available to us!"</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="fifth-section">
+    <h2>Ready to get started? Sign up now!</h2>
+    <div class="input-container"> 
+      <input type="email" name="" id="" class="email" placeholder="Email Address">
+      <button class="btn">Submit</button>
+    </div>
+  </div>  
+
+  <footer>
+    <div class="container-1">
+      <ul>
+        <li><a href="#" class="link">About</a></li>
+        <li><a href="#" class="link">Contact</a></li>
+        <li><a href="#" class="link">Terms of Use</a></li>
+        <li><a href="#" class="link">Privacy Policy</a></li>
+      </ul>
+      <p>&copy; Your Website 2023, All Rights Reserved.</p>
+    </div>
+
+    <div class="container-2">
+      <div class="inner-container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+  </footer>
+  
 </body>
 </html>
